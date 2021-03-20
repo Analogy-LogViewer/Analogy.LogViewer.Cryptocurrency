@@ -1,19 +1,20 @@
 ﻿using Analogy.Interfaces;
+using Analogy.LogViewer.Cryptocurrency.Properties;
 using System;
 using System.Drawing;
 using System.Threading.Tasks;
 
 namespace Analogy.LogViewer.Cryptocurrency.IAnalogy
 {
-    public class OnlineDataProvider : Analogy.LogViewer.Template.OnlineDataProvider
+    public class CurrentBalance : Analogy.LogViewer.Template.OnlineDataProvider
     {
         public override Guid Id { get; set; } = new Guid("f5693263-0b41-4582-b841-71cb12f316e4");
-        public override string OptionalTitle { get; set; } = "CryptoCurrency for Analogy Log Viewer";
+        public override string OptionalTitle { get; set; } = "Current Balance";
         public override async Task<bool> CanStartReceiving() => await Task.FromResult(true);
-        public override Image ConnectedLargeImage { get; set; } = null;
-        public override Image ConnectedSmallImage { get; set; } = null;
-        public override Image DisconnectedLargeImage { get; set; } = null;
-        public override Image DisconnectedSmallImage { get; set; } = null;
+        public override Image ConnectedLargeImage { get; set; } = Resources.GradientPurpleDataBar_32x32;
+        public override Image ConnectedSmallImage { get; set; } = Resources.GradientPurpleDataBar_16x16;
+        public override Image DisconnectedLargeImage { get; set; } = Resources.GradientPurpleDataBar_32x32;
+        public override Image DisconnectedSmallImage { get; set; } = Resources.GradientPurpleDataBar_16x16;
 
         public override async Task InitializeDataProviderAsync(IAnalogyLogger logger)
         {

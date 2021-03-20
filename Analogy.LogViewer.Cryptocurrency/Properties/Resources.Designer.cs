@@ -63,6 +63,26 @@ namespace Analogy.LogViewer.Cryptocurrency.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3DLine_16x16 {
+            get {
+                object obj = ResourceManager.GetObject("_3DLine_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3DLine_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("_3DLine_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap binanceIcon32x32 {
             get {
                 object obj = ResourceManager.GetObject("binanceIcon32x32", resourceCulture);
@@ -116,6 +136,46 @@ namespace Analogy.LogViewer.Cryptocurrency.Properties {
         internal static System.Drawing.Bitmap crypto64x64 {
             get {
                 object obj = ResourceManager.GetObject("crypto64x64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GradientPurpleDataBar_16x16 {
+            get {
+                object obj = ResourceManager.GetObject("GradientPurpleDataBar_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GradientPurpleDataBar_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("GradientPurpleDataBar_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Reading_16x16 {
+            get {
+                object obj = ResourceManager.GetObject("Reading_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Reading_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("Reading_32x32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
